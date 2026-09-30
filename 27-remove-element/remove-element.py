@@ -1,8 +1,8 @@
 class Solution:
-    def removeElement(self, nums: List[int], val: int) -> int:
+    def removeElement(self, nums: list[int], val: int) -> int:
         a=0
-        for i in range(len(nums)):
-           if nums[i]!= val:
-            nums[a]=nums[i]
-            a+=1
+        for b in range(len(nums)):
+            if nums[b]!=val:
+                nums[a]=nums[b]
+                a=a+1
         return a
